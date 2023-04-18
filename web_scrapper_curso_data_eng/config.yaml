@@ -1,0 +1,13 @@
+news_sites:
+  elespectador:
+    url: https://www.elespectador.com/
+    queries:
+      homepage_article_links: '.Card-Title a'
+      article_body: '.Article-Content'
+      article_title: '.Title'
+  elpais:
+    url: https://elpais.com
+    queries:
+      homepage_article_links: '.c_t a'
+      article_body: '.a_c'
+      article_title: '.a_t'
